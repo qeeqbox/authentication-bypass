@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/authentication-bypass-vulnerability/master/authentication-bypass-vulnerability.png"></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/authentication-bypass/main/authentication-bypass.png"></p>
 
 An adversary may gain access to data and functionalities by bypassing the target authentication mechanism
 
