@@ -3,19 +3,19 @@
 An adversary may gain access to data and functionalities by bypassing the target authentication mechanism
 
 ## Example #1
-1. Adversary requests a web application interface
+1. Threat actor requests a web application interface
 2. Sever sends a login request
-3. Adversary adds a parameter that bypasses the authentication
+3. Threat actor adds a parameter that bypasses the authentication
 4. Sever sends the web application interface
 
 ## Impact
-high
+High
 
 ## Risk
-- gain unauthorized access
+- Gain unauthorized access
 
 ## Redemption
-- validate access control
+- Validate access control
 
 ## ID
 0b73c51c-728c-4005-a1f1-84e303bbac1e
