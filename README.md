@@ -14,7 +14,7 @@ Open the webapp in your browser 127.0.0.1:5142
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/authentication-bypass/main/content/1.png"></p>
 Right-click on the page and open Developer Tools, find the hidden variable named debug in the post form
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/authentication-bypass/main/content/2.png"></p>
-Change the variable debug from 0 to 1
+Change the variable debug from 0 to 1, this hit log in
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/authentication-bypass/main/content/3.png"></p>
 You are logged as admin
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/authentication-bypass/main/content/4.png"></p>
