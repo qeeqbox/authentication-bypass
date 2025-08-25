@@ -1,6 +1,6 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/authentication-bypass/main/content/authentication-bypass.svg"></p>
 
-An application includes development variables that are used for testing only. A threat actor can exploit this feature by using the same development variables to access the application
+A threat actor is able to bypass the access controllers and gain access to the target
 
 Clone this current repo recursively
 ```sh
