@@ -4,7 +4,7 @@ A threat actor is able to bypass the access controllers and gain access to the t
 
 Clone this current repo recursively
 ```sh
-git clone --recurse-submodules httbypassps://github.com/qeeqbox/authentication-bypass
+git clone --recurse-submodules https://github.com/qeeqbox/authentication-bypass
 ```
 Run the webapp using Python
 ```sh
