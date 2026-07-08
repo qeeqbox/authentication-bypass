@@ -1,0 +1,3 @@
+[submodule "vulnerable-web-app"]
+	path = vulnerable-web-app
+	url = https://github.com/qeeqbox/vulnerable-web-app.git
