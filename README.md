@@ -25,13 +25,13 @@ When a user logs in using a username and password in POST request to the login r
 if parsed_url.path == "/login" and "username" in post_request_data and "password" in post_request_data:
     ret = self.check_creds(post_request_data['username'][0],post_request_data['password'][0])
     if isinstance(ret, list) and ret[0] == "valid":
-        self.send_content(302, self.gen_cookie(ret[1],60*15)+[('Location', URL)], None)
+        self.send_content(302, self.gen_cookie(ret[1],60*15,query_request_data)+[('Location', URL)], None)
         self.log_message("%s logged in" % post_request_data['username'][0])
         return
     elif isinstance(ret, list) and ret[0] == "password":
         if "debug" in post_request_data:
             if post_request_data["debug"][0] == "1":
-                self.send_content(302, self.gen_cookie(ret[1],60*15)+[('Location', URL)], None)
+                self.send_content(302, self.gen_cookie(ret[1],60*15,query_request_data)+[('Location', URL)], None)
                 self.log_message("%s logged in" % post_request_data['username'][0])
                 return
         self.send_content(401, [('Content-type', 'text/html')], self.msg_page(f"Password is wrong".encode("utf-8"), b"login"))
