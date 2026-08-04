@@ -20,7 +20,7 @@ Successful Authentication Bypass attacks can lead to:
 - System Compromise: Entire systems or networks can be compromised, resulting in widespread damage.
 
 ## Mitigation Strategies for Preventing Authentication Bypass Attacks
-To prevent Preventing Authentication:
+To prevent Preventing Authentication attacks:
 - Secure Coding Practices: Adhere to secure coding standards and best practices to avoid common vulnerabilities, including SQL injection and cross-site scripting (XSS).
 - Input Validation: Validate all user inputs on both the client and server sides to ensure they conform to expected formats and values.
 - Parameterized Queries: Utilize parameterized queries or prepared statements to safeguard against SQL injection attacks.
