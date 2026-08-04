@@ -18,7 +18,7 @@ Authentication Bypass is a security vulnerability that when an attacker gains ac
 - Privilege Escalation: Attackers can gain higher privileges within the system, leading to more significant breaches.
 - System Compromise: Entire systems or networks can be compromised, resulting in widespread damage.
 
-## Mitigation Strategies for Preventing Authentication Bypass Attacks
+## Authentication Bypass Mitigation Strategies
 - Secure Coding Practices: Adhere to secure coding standards and best practices to avoid common vulnerabilities, including SQL injection and cross-site scripting (XSS).
 - Input Validation: Validate all user inputs on both the client and server sides to ensure they conform to expected formats and values.
 - Parameterized Queries: Utilize parameterized queries or prepared statements to safeguard against SQL injection attacks.
@@ -30,7 +30,7 @@ Authentication Bypass is a security vulnerability that when an attacker gains ac
 - Least Privilege Principle: Implement the principle of least privilege, granting users only the permissions necessary for their specific roles.
 - Monitoring and Logging: Establish robust monitoring and logging systems to quickly detect and respond to suspicious activities.
 
-## Example
+## Authentication Bypass Example
 Clone this current repo recursively
 ```sh
 git clone --recurse-submodules https://github.com/qeeqbox/authentication-bypass
