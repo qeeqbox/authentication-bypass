@@ -1,7 +1,7 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/authentication-bypass/main/content/authentication-bypass.svg"></p>
 
 ## Authentication Bypass
-Authentication Bypass occurs when an attacker gains access to a system or application without providing valid credentials. This typically happens due to vulnerabilities in the authentication mechanism that allow attackers to circumvent the normal login process.
+Authentication Bypass is a security vulnerability that when an attacker gains access to a system or application without providing valid credentials. This typically happens due to vulnerabilities in the authentication mechanism that allow attackers to circumvent the normal login process.
 
 ## How Authentication Bypass Works
 - Exploiting Vulnerabilities: Attackers exploit specific flaws in the authentication logic, such as SQL injection, cross-site scripting (XSS), or insecure configuration settings.
