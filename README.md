@@ -12,7 +12,7 @@ Authentication Bypass is a security vulnerability that when an attacker gains ac
 - Token Manipulation: Attackers modify or forge authentication tokens (e.g., JSON Web Tokens) to gain access without proper validation.
 - Insecure APIs: Vulnerabilities in application programming interfaces (APIs) that manage authentication can be exploited, such as weak API keys or missing input validation.
 
-## Impacts of Authentication Bypass Attacks
+## Authentication Bypass Impact
 - Unauthorized Access: Attackers can access sensitive data and perform actions they are not authorized to carry out.
 - Data Theft: Sensitive information, such as user credentials, financial data, and personal information, can be stolen.
 - Privilege Escalation: Attackers can gain higher privileges within the system, leading to more significant breaches.
